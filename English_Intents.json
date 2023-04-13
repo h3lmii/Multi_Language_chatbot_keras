@@ -1,0 +1,140 @@
+{
+   "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-) I'm Helmi and I'm happy to respond you to get to know me better",
+        "Hello, thanks for visiting ,I'm Helmi and I'm happy to respond you to get to know me better",
+        "Hi there, I'm Helmi and I'm happy to respond you to get to know me better",
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+          "what's your name?"
+        "Who are you?",
+        "Introduce yourself",
+        "What do you do?",
+		"I want to know you",
+		"Tell me about yourself ",
+      ],
+      "responses": [
+        "I’m Helmi Massoussi a Computer Science Engineering student at INSAT Tunisia. I'm very passionate about Data Science and Artificial Intelligence: NLP and Computer Vision in particular",
+        "I’m Helmi Massoussi a Computer Science Engineering student at INSAT Tunisia. I like turning machine learning papers into code & I enjoy doing research to pursue my interests in hot AI topics."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "what is your work experience ?",
+        "Do you have Experience?",
+        "Do you have Work Experience?",
+        "Any work experience?",
+        "tell me about your past work",
+        "tell me about your past jobs",
+        "what are your past jobs ?"
+        "Your jobs?"
+        "Your experience?"
+        "Experience?"
+      ],
+      "responses": [
+        "Sure, I've worked 3 months as a summer Computer Vision intern to build a real time facial recognition for Startup Members.\n I've also worked as technical data Science Content Writer where I've made research on OCR and Intelligent Document Processing \n and I'm Machine Learning Developer at CrunchDAO among 2000 data scientists and 400 PHDs ",
+       
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Any projects?",
+        "Your projects ?"
+        "Do you have Project?",
+        "Can you show me some of your Projects?"
+        "Can you list me your projects?",
+        "Describe Projects you worked on",
+        "Can you tell me about your projects?"
+      ],
+      "responses": [
+        "Sure,I've worked Smart Protecting System for Online Examination using Opencv and Human Activity Recogntion as Academic Pojects. \n My personal projects are this MultiLanguage Chatbot,Resume Parser WebApp with Streamlilt, Tunisian Dialect Sentiment Analysis deployed with flask and django and more on my github: github.com/h3lmii ",
+		
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+          "Your skills?",
+          "Your technical Skills?",   
+        "Tell me about your skills",
+        "What are your Skills ?",
+        "What can you do?"
+        "Skills?"
+      ],
+      "responses": [
+        "In short my Technical skills are: Deep Learning with Keras's Tensorflow and Pytorch.Computer Vision with Opencv Python. NLP with Spacy,Nltk and Transformers. Django,Flask,Streamlit for model deployment and Rest Apis",
+      ]
+    },
+	{
+      "tag": "education",
+      "patterns": [
+        "Tell me about your education",
+        "Tell me about your studies",
+        "Do you Study? ?",
+        "What do you study?"
+      ],
+      "responses": [
+        "I'm a Computer Science engineering Student at INSAT Tunisia from 09/2019 where I studied Programming,Statistics, Probability , Linear Algebra",
+      ]
+    },
+	
+	{
+      "tag": "Languages",
+      "patterns": [
+          "Which Languages can you speak ?"
+        "What Languages do you speak?",
+        "How many Languages you can speak?",
+        "you Languages "
+      ],
+      "responses": [
+        "I speak fluent Arabic, English & French and I'm preparing to pass the B1 goethe Deutsch Exam.",
+      ]
+    },
+	
+	{
+      "tag": "Contact",
+      "patterns": [
+        "How can I contact you?",
+        "Your contact ?"
+        "How can I reach you?",
+        "How can I get in touch with you?",
+		    "I like to contact you"
+      ],
+      "responses": [
+        "Feel free to contact me on Linkedin: https://www.linkedin.com/in/massoussihelmi/  or by mail: helmi.messousi@insat.ucar.tn or by Phone: +21653006861",
+      ]
+    }
+	
+	
+	
+  ]
+}

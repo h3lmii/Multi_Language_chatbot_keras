@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+       "Hallo",
+         "Hey",
+         "Wie geht es dir",
+         "Ist jemand da?",
+         "Hallo",
+         "Guten Tag"
+      ],
+      "responses": [
+        "Hey :-) ich bin Helmi und  ich freue mich, Ihnen zu antworten, um mich besser kennenzulernen",
+         "Hallo, danke für Ihren Besuch, ich bin Helmi und freue mich, Ihnen zu antworten, um mich besser kennenzulernen",
+         "Hallo, ich bin Helmi und ich freue mich, Ihnen zu antworten, um mich besser kennenzulerne",
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tschüss", "Bis später", "Auf Wiedersehen"],
+      "responses": [
+        "Bis später, danke für Ihren Besuch",
+         "Ich wünsche Ihnen einen schönen Tag! ",
+         "Tschüss! Komm bald wieder."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Danke", "Danke", "Das ist hilfreich", "Vielen Dank!"],
+      "responses": ["Gerne helfen!","Gerne "]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+         "Wie heißen Sie?"
+         "Wer bist du?",
+         "Stelle dich vor",
+         "Wie geht's?",
+        "Ich will dich kennenlernen",
+        "Erzählen Sie mir über sich ",
+      ],
+      "responses": [
+"Ich bin Helmi Massoussi und studiere Computer Science Engineering am INSAT Tunesien. Ich interessiere mich sehr für Data Science und Artificial Intellignece : NLP und Computer Vision im Besonderen"       
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "Was ist Ihre Berufserfahrung?",
+         "Hast du Erfahrung?",
+         "Haben Sie Berufserfahrung?",
+         "Jede Berufserfahrung?",
+         "Erzählen Sie mir von Ihrer bisherigen Arbeit",
+         "Erzählen Sie mir von Ihren früheren Jobs",
+         "Was sind Ihre früheren Jobs?"
+         "Ihre Arbeit?"
+         "Deine Erfahrung?"
+         "Erfahrung?"
+      ],
+      "responses": [
+"Sicher, ich habe 3 Monate als Sommerpraktikant für Computer Vision gearbeitet, um eine Echtzeit-Gesichtserkennung für Startup-Mitglieder zu entwickeln.\n Ich habe auch als Science Content Writer für technische Daten gearbeitet, wo ich zu OCR und intelligent Document Processing geforscht habe \n und ich bin Machine Learning Developer bei CrunchDAO unter 2000 Data Scientists und 400 PHDs ",       
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Irgendwelche Projekte?",
+         "Ihre Projekte?"
+         "Haben Sie ein Projekt?",
+         "Können Sie mir einige Ihrer Projekte zeigen?"
+         "Können Sie mir Ihre Projekte auflisten?",
+         "Beschreiben Sie Projekte, an denen Sie gearbeitet haben",
+         "Können Sie mir etwas über Ihre Projekte erzählen?"
+      ],
+      "responses": [
+"Sicher, ich habe am Smart Protecting System for Online Examination gearbeitet, wobei Opencv und Human Activity Recognion als akademische Projekte verwendet wurden. \n Meine persönlichen Projekte sind dieser mehrsprachige Chatbot, Resume Parser WebApp mit Streamlilt, tunesische Dialekt-Stimmungsanalyse, die mit Flask und Django bereitgestellt wird, und mehr auf meinem github: github.com/h3lmii ",		
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "Deine Fähigkeiten?",
+           "Ihre technischen Fähigkeiten?",
+         "Erzählen Sie mir von Ihren Fähigkeiten",
+         "Was sind deine Fähigkeiten?",
+         "Was kannst du tun?"
+         "Fähigkeiten?"
+      ],
+      "responses": [
+"Kurz gesagt, meine technischen Fähigkeiten sind: Deep Learning mit Keras Tensorflow und Pytorch. Computer Vision mit Opencv Python. NLP mit Spacy, Nltk und Transformers. Django, Flask, Streamlit für die Modellbereitstellung und Rest Apis",      ]
+    },
+	{
+      "tag": "education",
+      "patterns": [
+       "Erzählen Sie mir von Ihrer Studium",
+         "Erzähl mir von deinem Studium",
+         "Studierst du? ?",
+         "Was studierst du?"
+      ],
+      "responses": [
+"Ich bin seit 09/2019 Informatikstudent am INSAT Tunesien, wo ich Programmierung, Statistik, Wahrscheinlichkeit und lineare Algebra studiert habe",      ]
+    },
+	
+	{
+      "tag": "Languages",
+      "patterns": [
+         "Welche sprachen kannst du sprechen ?"
+         "Welche Sprachen sprichst du?",
+         "Wie viele Sprachen kannst du sprechen?",
+         "Ihre Sprachen"
+         "Sprachen"
+      ],
+      "responses": [
+"Ich spreche fließend Arabisch, Englisch und Französisch und bereite mich darauf vor, die Goethe-Deutsch-Prüfung B1 zu bestehen.",      ]
+    },
+	
+	{
+      "tag": "Contact",
+      "patterns": [
+        "Wie kann ich dich erreichen?",
+         "Dein Kontakt ?"
+         "Wie kann ich dich erreichen?",
+         "Wie kann ich Sie kontaktieren?",
+"Ich kontaktiere Sie gerne"
+      ],
+      "responses": [
+"Sie können mich gerne auf Linkedin kontaktieren: https://www.linkedin.com/in/massoussihelmi/ oder per E-Mail: helmi.messousi@insat.ucar.tn oder per Telefon: +21653006861",      ]
+    }
+	
+	
+	
+  ]
+}

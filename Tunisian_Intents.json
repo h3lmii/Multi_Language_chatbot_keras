@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Cc",
+        "fama chkoun?",
+        "Ahla",
+        "slm","selem","hello","hi"
+      ],
+      "responses": [
+        "Selem :-) Je suis Helmi et je vais vous répondre a vos questions",
+  
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Au revoir", "Goodbye","Filamen"],
+      "responses": [
+        "Au revoir",
+        "Bonne journée",
+        "Bye! ","Filamen"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Merci", "Merci Beaucoup","Chokran"],
+      "responses": ["Fi kol wakt!", "Any time!", "De rien"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+          "tu es qui?"
+        "aarefni brohek?",
+        "tnajem tahkili aala rohek",
+        "Chkoun maaya?",
+		"maa chkoun nahki?", "c qui?","tnajem taarefni brohek",
+      ],
+      "responses": [
+        "Ena Helmi Massoussi, étudiant en cycle d'ingénieur à l'INSAT Tunis. Je suis très passionné par la Data Science et l'Intelligence Artificielle : khassatan el NLP et la Computer Vision",
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "aandek expérience professionnelle ?",
+        "aanek expérience?",
+        "Chniya l experience li aandek?",
+        "Ton experience?"
+        "Experience?"
+      ],
+      "responses": [
+        " aamalt stage de 3 mois en AI + Computer vision pour créer une Facial Recognition App en temps réel pour les membres de la startup.\n w J'ai également travaillé en tant que Content Data science Writer où j'ai fait des recherches sur l'OCR et le Intelligent Document Processing \n et je suis Machine Learning Developer chez CrunchDAO parmi 2000 data scientists et 400 PHDs",
+       
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "aandek des project?",
+        "tnajem twarini tes projets ?"
+        "Chnouma les projets li khdemet aalehom ?",
+        "Tes Projets?"
+        "projets?",
+      ],
+      "responses": [
+        "Sure,I've worked Smart Protecting System for Online Examination using Opencv and Human Activity Recogntion as Academic Pojects. \n My personal projects are this MultiLanguage Chatbot,Resume Parser WebApp with Streamlilt, Tunisian Dialect Sentiment Analysis deployed with flask and django and more on my github: github.com/h3lmii ",
+		
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+          "Your skills?",
+          "Your technical Skills?",   
+        "ahkili aal skills",
+        "chtnajem taamel ?"
+        "Skills?"
+      ],
+      "responses": [
+        "my Technical skills are: Deep Learning b Keras's Tensorflow and Pytorch. Computer Vision with Opencv Python. NLP with Spacy,Nltk and Transformers. Django,Flask,Streamlit for model deployment and Rest Apis",
+      ]
+    },
+	{
+      "tag": "education",
+      "patterns": [
+        "kamelet 9raytek?",
+        "ta9ra?",
+        "ech ta9ra?",
+        "Chaamel fil 9raya?","win ta9ra?"
+      ],
+      "responses": [
+        "Je suis en 4éme annére cycle ingénieur INSAT Tunisia men 09/2019 : Programming,Statistics, Probability , Linear Algebra",
+      ]
+    },
+	
+	{
+      "tag": "Languages",
+      "patterns": [
+          "chnouma les langues li ta7ki behom ?"
+        "ta7ki des langues ?",
+        "9dch men langue ta7ki?",
+        " Languages "
+      ],
+      "responses": [
+        "na7ki Arabic, English & French w chwaya Allemand.",
+      ]
+    },
+	
+	{
+      "tag": "Contact",
+      "patterns": [
+        "kifeh najem ncontactik?",
+        "contact?"
+        "kifeh najem nouselek?",
+		    "n7eb na7ki maak"
+      ],
+      "responses": [
+        "Feel free to contact me on Linkedin: https://www.linkedin.com/in/massoussihelmi/  or by mail: helmi.messousi@insat.ucar.tn or by Phone: +21653006861",
+      ]
+    }
+	
+	
+	
+  ]
+}
